@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Golden Hearts Reports</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#f4f6f9;
+            font-family:Segoe UI, sans-serif;
+        }
+
+        .topbar{
+            background:#0d1b2a;
+            color:white;
+            padding:18px;
+            border-radius:16px;
+            margin-bottom:25px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        .cardx{
+            background:white;
+            border-radius:18px;
+            padding:20px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.08);
+            margin-bottom:20px;
+        }
+
+        .stat-card{
+            color:white;
+            border-radius:18px;
+            padding:25px;
+            height:100%;
+        }
+
+        .blue{
+            background:linear-gradient(135deg,#007bff,#0056b3);
+        }
+
+        .green{
+            background:linear-gradient(135deg,#28a745,#1e7e34);
+        }
+
+        .gold{
+            background:linear-gradient(135deg,#d4af37,#b8860b);
+        }
+
+        .red{
+            background:linear-gradient(135deg,#dc3545,#a71d2a);
+        }
+
+        .stat-title{
+            font-size:15px;
+            opacity:0.9;
+        }
+
+        .stat-value{
+            font-size:32px;
+            font-weight:bold;
+            margin-top:10px;
+        }
+
+        table{
+            font-size:14px;
+        }
+
+        .table thead{
+            background:#0d1b2a;
+            color:white;
+        }
+
+        .badge-room{
+            background:#dc3545;
+        }
+
+        .badge-paid{
+            background:#28a745;
+        }
+
+        .section-title{
+            font-weight:bold;
+            margin-bottom:15px;
+            color:#0d1b2a;
+        }
+
+        .action-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .action-login {
+            background: #28a745;
+        }
+
+        .action-logout {
+            background: #6c757d;
+        }
+
+        .action-payment {
+            background: #ffc107;
+            color: black;
+        }
+
+        .action-add-drink {
+            background: #17a2b8;
+        }
+
+        .action-book-room {
+            background: #007bff;
+        }
+
+        .action-release-room {
+            background: #e83e8c;
+        }
+
+        .role-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .role-admin {
+            background: #dc3545;
+        }
+
+        .role-waiter {
+            background: #0d6efd;
+        }
+
+        .time-text {
+            font-size: 12px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container py-4">
+
+    <div class="topbar">
+        <div>
+            <h3 class="mb-0">📊 Golden Hearts Reports</h3>
+            <small>POS Analytics Dashboard</small>
+        </div>
+
+        <a href="/dashboard" class="btn btn-light">
+            Back Dashboard
+        </a>
+    </div>
+
+    <!-- STATS -->
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="stat-card blue">
+                <div class="stat-title">Total Revenue</div>
+                <div class="stat-value">
+                    Ksh {{ "%.2f"|format(total_revenue) }}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-card green">
+                <div class="stat-title">Today's Revenue</div>
+                <div class="stat-value">
+                    Ksh {{ "%.2f"|format(today_revenue) }}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-card gold">
+                <div class="stat-title">Total Receipts</div>
+                <div class="stat-value">
+                    {{ receipts_count }}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="stat-card red">
+                <div class="stat-title">Occupied Rooms</div>
+                <div class="stat-value">
+                    {{ occupied_rooms }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- WAITER STATS -->
+    <div class="cardx">
+
+        <div class="section-title">
+            👨‍🍳 Waiter Performance
+        </div>
+
+        <table class="table table-bordered table-hover">
+
+            <thead>
+                <tr>
+                    <th>Waiter</th>
+                    <th>Receipts</th>
+                    <th>Total Sales</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for w in waiter_stats %}
+
+                <tr>
+                    <td><strong>{{ w[0] }}</strong></td>
+                    <td>{{ w[1] }}</td>
+                    <td>Ksh {{ "%.2f"|format(w[2]) }}</td>
+                </tr>
+
+                {% endfor %}
+
+                {% if waiter_stats|length == 0 %}
+                <tr>
+                    <td colspan="3" class="text-center text-muted py-3">No waiter data yet</td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- PAYMENT METHODS -->
+    <div class="cardx">
+
+        <div class="section-title">
+            💳 Payment Methods Breakdown
+        </div>
+
+        <table class="table table-bordered table-hover">
+
+            <thead>
+                <tr>
+                    <th>Payment Method</th>
+                    <th>Transactions</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for pm in payment_methods %}
+
+                <tr>
+                    <td><strong>{{ pm[0] }}</strong></td>
+                    <td>{{ pm[1] }}</td>
+                    <td>Ksh {{ "%.2f"|format(pm[2]) }}</td>
+                </tr>
+
+                {% endfor %}
+
+                {% if payment_methods|length == 0 %}
+                <tr>
+                    <td colspan="3" class="text-center text-muted py-3">No payment data yet</td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- DAILY REVENUE -->
+    <div class="cardx">
+
+        <div class="section-title">
+            📈 Daily Revenue (Last 30 Days)
+        </div>
+
+        <table class="table table-bordered table-hover">
+
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Transactions</th>
+                    <th>Total Revenue</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for dr in daily_revenue %}
+
+                <tr>
+                    <td><strong>{{ dr[0] }}</strong></td>
+                    <td>{{ dr[1] }}</td>
+                    <td>Ksh {{ "%.2f"|format(dr[2]) }}</td>
+                </tr>
+
+                {% endfor %}
+
+                {% if daily_revenue|length == 0 %}
+                <tr>
+                    <td colspan="3" class="text-center text-muted py-3">No daily data yet</td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- RECENT RECEIPTS -->
+    <div class="cardx">
+
+        <div class="section-title">
+            🧾 Recent Receipts
+        </div>
+
+        <table class="table table-bordered table-hover">
+
+            <thead>
+                <tr>
+                    <th>Receipt #</th>
+                    <th>Room</th>
+                    <th>Amount</th>
+                    <th>Method</th>
+                    <th>Waiter</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for rc in recent_receipts %}
+
+                <tr>
+                    <td><strong>{{ rc[1] }}</strong></td>
+                    <td>
+                        {% if rc[3] is none %}
+                            <span class="badge badge-pill badge-info">Walk-in</span>
+                        {% else %}
+                            Room {{ rc[3] }}
+                        {% endif %}
+                    </td>
+                    <td>Ksh {{ "%.2f"|format(rc[3]) }}</td>
+                    <td>{{ rc[4] }}</td>
+                    <td>{{ rc[5] }}</td>
+                    <td class="time-text">{{ rc[6] }}</td>
+                </tr>
+
+                {% endfor %}
+
+                {% if recent_receipts|length == 0 %}
+                <tr>
+                    <td colspan="6" class="text-center text-muted py-3">No receipts yet</td>
+                </tr>
+                {% endif %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <!-- COMPLETE ACTIVITY LOG -->
+    <div class="cardx">
+
+        <div class="section-title">
+            🕒 Complete Activity Log (All Actions with Timestamps)
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-sm">
+
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>User</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Amount</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for log in activity_logs %}
+
+                    <tr>
+                        <td class="time-text">
+                            <strong>{{ log[7] }}</strong>
+                        </td>
+                        <td>{{ log[0] }}</td>
+                        <td>
+                            {% if log[1] == 'admin' %}
+                                <span class="role-badge role-admin">{{ log[1]|upper }}</span>
+                            {% else %}
+                                <span class="role-badge role-waiter">{{ log[1]|upper }}</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% set action_lower = log[2]|lower %}
+                            {% if 'login' in action_lower %}
+                                <span class="action-badge action-login">{{ log[2] }}</span>
+                            {% elif 'logout' in action_lower %}
+                                <span class="action-badge action-logout">{{ log[2] }}</span>
+                            {% elif 'payment' in action_lower or 'pay' in action_lower %}
+                                <span class="action-badge action-payment">{{ log[2] }}</span>
+                            {% elif 'drink' in action_lower %}
+                                <span class="action-badge action-add-drink">{{ log[2] }}</span>
+                            {% elif 'book' in action_lower %}
+                                <span class="action-badge action-book-room">{{ log[2] }}</span>
+                            {% elif 'release' in action_lower %}
+                                <span class="action-badge action-release-room">{{ log[2] }}</span>
+                            {% else %}
+                                <span class="action-badge" style="background: #6c757d;">{{ log[2] }}</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ log[3] if log[3] else '-' }}</td>
+                        <td>{{ log[4] if log[4] else '-' }}</td>
+                        <td>Ksh {{ "%.2f"|format(log[5]) if log[5] else '0.00' }}</td>
+                        <td>{{ log[6] if log[6] else '-' }}</td>
+                    </tr>
+
+                    {% endfor %}
+
+                    {% if activity_logs|length == 0 %}
+                    <tr>
+                        <td colspan="8" class="text-center text-muted py-3">No activity logged yet</td>
+                    </tr>
+                    {% endif %}
+
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

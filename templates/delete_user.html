@@ -1,0 +1,16 @@
+@app.route('/delete_user/<int:id>')
+def delete_user(id):
+    if session.get('role') != 'admin':
+        return "❌ Admin only"
+
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT role FROM users WHERE id=%s", (id,))
+    user = cur.fetchone()
+
+    if user[0] == 'admin':
+        return "❌ Cannot delete admin"
+
+    cur.execute("DELETE FROM users WHERE id=%s", (id,))
+    mysql.connection.commit()
+
+    return redirect('/admin')

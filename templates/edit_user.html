@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit User</title>
+</head>
+<body>
+
+<h2>Edit User</h2>
+
+<form method="POST">
+
+    {% if user[3] != 'admin' %}
+        Name: <input name="name" value="{{ user[1] }}"><br><br>
+    {% else %}
+        Name: <strong>{{ user[1] }}</strong><br><br>
+    {% endif %}
+
+    PIN: <input name="pin" value="{{ user[2] }}"><br><br>
+
+    <p><strong>{{ user[3] }}</strong></p>
+
+    <button type="submit">Update</button>
+
+</form>
+
+<br>
+<a href="/admin">Back</a>
+
+</body>
+</html>

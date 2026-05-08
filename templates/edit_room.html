@@ -1,0 +1,11 @@
+<h3>{{ 'Edit Room' if room else 'Add Room' }}</h3>
+
+<form method="POST">
+<input name="name" placeholder="Room" value="{{ room[1] if room else '' }}"><br>
+<input name="type" placeholder="Type" value="{{ room[2] if room else '' }}"><br>
+<input name="price" placeholder="Price" value="{{ room[3] if room else '' }}"><br><br>
+
+<button>Save</button>
+</form>
+
+<a href="/admin">Back</a>

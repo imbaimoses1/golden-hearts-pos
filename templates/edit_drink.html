@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% if drink %}Edit Drink{% else %}Add Drink{% endif %}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #0d1b2a;
+            color: white;
+        }
+
+        .card {
+            background: #1b263b;
+            margin-top: 60px;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-primary {
+            background: #ffd700;
+            color: black;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background: #e6c200;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h3 class="text-warning text-center mb-4">
+        {% if drink %}Edit Item{% else %}Add Item{% endif %}
+    </h3>
+
+    <form method="POST">
+
+        <!-- NAME -->
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input 
+                type="text" 
+                name="name" 
+                class="form-control" 
+                value="{{ drink[1] if drink else '' }}" 
+                required>
+        </div>
+
+        <!-- PRICE -->
+        <div class="mb-3">
+            <label class="form-label">Price (Ksh)</label>
+            <input 
+                type="number" 
+                step="0.01"
+                name="price" 
+                class="form-control" 
+                value="{{ drink[2] if drink else '' }}" 
+                required>
+        </div>
+
+        <!-- CATEGORY -->
+        <div class="mb-3">
+            <label class="form-label">Category</label>
+            <select name="category" class="form-select" required>
+
+                <option value="">-- Select Category --</option>
+
+                <option value="Beer" {% if drink and drink[3]=='Beer' %}selected{% endif %}>Beer</option>
+                <option value="Spirit" {% if drink and drink[3]=='Spirit' %}selected{% endif %}>Spirit</option>
+                <option value="Soft Drink" {% if drink and drink[3]=='Soft Drink' %}selected{% endif %}>Soft Drink</option>
+                <option value="Food" {% if drink and drink[3]=='Food' %}selected{% endif %}>Food</option>
+                <option value="Special" {% if drink and drink[3]=='Special' %}selected{% endif %}>Special</option>
+
+            </select>
+        </div>
+
+        <!-- BUTTON -->
+        <button class="btn btn-primary w-100">
+            {% if drink %}Update{% else %}Add Drink{% endif %}
+        </button>
+
+    </form>
+
+    <!-- BACK -->
+    <a href="/admin" class="btn btn-secondary w-100 mt-3">Back</a>
+
+</div>
+
+</body>
+</html>

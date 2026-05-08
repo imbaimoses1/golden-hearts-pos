@@ -1,0 +1,13 @@
+<h2>Walk-in Bill</h2>
+
+<ul>
+{% for i in items %}
+<li>{{ i[0] }} x{{ i[1] }} = Ksh {{ i[1]*i[2] }}</li>
+{% endfor %}
+</ul>
+
+<h3>Total: Ksh {{ total }}</h3>
+
+<form method="POST" action="/pay/{{ order_id }}">
+    <button>Pay</button>
+</form>

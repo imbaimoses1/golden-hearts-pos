@@ -1,0 +1,17 @@
+@app.route('/add_user', methods=['POST'])
+def add_user():
+    if session.get('role') != 'admin':
+        return "❌ Admin only"
+
+    name = request.form['name']
+    pin = request.form['pin']
+
+    # FORCE waiter only
+    role = 'waiter'
+
+    cur = mysql.connection.cursor()
+    cur.execute("INSERT INTO users (name, pin, role) VALUES (%s,%s,%s)",
+                (name, pin, role))
+    mysql.connection.commit()
+
+    return redirect('/admin')
