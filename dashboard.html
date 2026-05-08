@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { background:#0d1b2a; color:white; }
+
+        .header {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-top:20px;
+        }
+
+        .card {
+            background:#1b263b;
+            border:none;
+            border-radius:12px;
+            padding:20px;
+            margin-top:20px;
+        }
+
+        .btn-gold {
+            background:#ffd700;
+            color:black;
+            border:none;
+        }
+
+        .btn-small {
+            padding:6px 14px;
+            font-size:14px;
+        }
+
+        table { color:white; }
+        
+        .admin-badge {
+            background: #dc3545;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+<!-- HEADER -->
+<div class="header">
+    <h2 class="text-warning">
+        Dashboard
+        {% if role == 'admin' %}
+        <span class="admin-badge">👑 ADMIN</span>
+        {% endif %}
+    </h2>
+
+    <div>
+        👤 {{ username }}
+        <a href="/lock" class="btn btn-gold btn-small ms-2">Lock</a>
+        <a href="/logout" class="btn btn-danger btn-small ms-2">Logout</a>
+    </div>
+</div>
+
+<!-- STATS (Admin Only) -->
+{% if role == 'admin' %}
+<div class="row mt-3 mb-3">
+    <div class="col-md-4">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <h6>Occupied Rooms</h6>
+                <h3>{{ occupied_count }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h6>Today's Revenue</h6>
+                <h3>Ksh {{ "%.2f"|format(today_revenue) }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-warning text-dark">
+            <div class="card-body">
+                <h6>Available Rooms</h6>
+                <h3>{{ rooms|length - occupied_count }}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- ROOMS -->
+<div class="card">
+    <h5>Rooms</h5>
+
+    <table class="table">
+        <tr>
+            <th>Room</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        {% for r in rooms %}
+        <tr>
+            <td>{{ r[1] }}</td>
+            <td>{{ r[2] }}</td>
+            <td>Ksh {{ r[3] }}</td>
+            <td>
+                {% if r[4] == 'available' %}
+                    <span class="text-success">✅ Available</span>
+                {% else %}
+                    <span class="text-danger">🔴 Occupied</span>
+                {% endif %}
+            </td>
+            <td>
+                <div class="action-buttons">
+                    {% if r[4] == 'available' %}
+                        <!-- AVAILABLE ROOM - Book Button WITH WARNING -->
+                        <button type="button" class="btn btn-success btn-small" data-bs-toggle="modal" data-bs-target="#bookModal{{ r[0] }}">
+                            📝 Book
+                        </button>
+                        
+                        <!-- Book Confirmation Modal -->
+                        <div class="modal fade" id="bookModal{{ r[0] }}" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content bg-dark text-white">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">📝 Book Room</h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Book <strong>{{ r[1] }}</strong>?</p>
+                                        <p class="text-info">ℹ️ This will mark the room as OCCUPIED.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                        <a href="/book/{{ r[0] }}" class="btn btn-success">Yes, Book Room</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% else %}
+                        <!-- OCCUPIED ROOM - Waiter Buttons -->
+                        {% if role == 'waiter' %}
+                            <!-- ORDER BUTTON WITH WARNING -->
+                            <button type="button" class="btn btn-primary btn-small" data-bs-toggle="modal" data-bs-target="#orderModal{{ r[0] }}">
+                                🍹 Order
+                            </button>
+                            
+                            <!-- Order Confirmation Modal -->
+                            <div class="modal fade" id="orderModal{{ r[0] }}" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">🍹 Add Drink Order</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Add drink order to <strong>{{ r[1] }}</strong>?</p>
+                                            <p class="text-warning">⚠️ This will add items to the room bill.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                            <a href="/order/{{ r[0] }}" class="btn btn-primary">Yes, Add Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a href="/bill/{{ r[0] }}" class="btn btn-warning btn-small">💳 Bill</a>
+                        
+                        <!-- OCCUPIED ROOM - Admin Buttons -->
+                        {% elif role == 'admin' %}
+                            <!-- ORDER BUTTON WITH WARNING -->
+                            <button type="button" class="btn btn-primary btn-small" data-bs-toggle="modal" data-bs-target="#orderModal{{ r[0] }}">
+                                🍹 Order
+                            </button>
+                            
+                            <!-- Order Confirmation Modal -->
+                            <div class="modal fade" id="orderModal{{ r[0] }}" tabindex="-1">
+                                <div class="modal-dialog">
+                                    <div class="modal-content bg-dark text-white">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">🍹 Add Drink Order</h5>
+                                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Add drink order to <strong>{{ r[1] }}</strong>?</p>
+                                            <p class="text-warning">⚠️ This will add items to the room bill.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                            <a href="/order/{{ r[0] }}" class="btn btn-primary">Yes, Add Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a href="/bill/{{ r[0] }}" class="btn btn-warning btn-small">💳 Bill</a>
+                            
+                            <!-- Release Room Button -->
+                            <button type="button" class="btn btn-danger btn-small" data-bs-toggle="modal" data-bs-target="#releaseModal{{ r[0] }}">
+                                🔓 Release
+                            </button>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </td>
+        </tr>
+
+        <!-- Release Room Modal -->
+        {% if r[4] == 'occupied' and role == 'admin' %}
+        <div class="modal fade" id="releaseModal{{ r[0] }}" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark text-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title">🔓 Release Room</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to <strong>release</strong> <strong>{{ r[1] }}</strong>?</p>
+                        <p class="text-info">ℹ️ The room will become available for new bookings.</p>
+                        <p class="text-warning">⚠️ Make sure the bill has been paid!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <a href="/release/{{ r[0] }}" class="btn btn-danger">Yes, Release Room</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% endfor %}
+    </table>
+</div>
+
+<!-- QUICK ACTIONS -->
+<div class="card">
+    <h5>Quick Actions</h5>
+
+    <div class="d-flex gap-2 flex-wrap">
+        <a href="/walkin/order" class="btn btn-gold btn-small">🚶 Walk-in Order</a>
+
+        {% if role == 'admin' %}
+            <a href="/admin" class="btn btn-primary btn-small">⚙️ Admin Panel</a>
+            <a href="/receipts" class="btn btn-warning btn-small">🧾 Receipts</a>
+            <a href="/reports" class="btn btn-success btn-small">📊 Reports</a>
+        {% endif %}
+    </div>
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

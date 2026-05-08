@@ -1,0 +1,824 @@
+2026-05-06 23:22:15,026 - werkzeug - WARNING -  * Debugger is active!
+2026-05-06 23:22:15,047 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-06 23:22:23,001 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:23] "[32mGET /reports HTTP/1.1[0m" 302 -
+2026-05-06 23:22:23,024 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:23] "GET / HTTP/1.1" 200 -
+2026-05-06 23:22:32,213 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-06 23:22:32,215 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:32] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 23:22:32,387 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:22:32,576 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:32] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:22:36,405 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-06 23:22:36,514 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:36] "GET /reports HTTP/1.1" 200 -
+2026-05-06 23:22:40,338 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-06 23:22:40,340 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:40] "GET /reports HTTP/1.1" 200 -
+2026-05-06 23:22:45,946 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:22:45,948 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:45] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:22:50,397 - __main__ - INFO - [JAMIN] BOOK_ROOM: Booked room 3
+2026-05-06 23:22:50,398 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:50] "[32mGET /book/3 HTTP/1.1[0m" 302 -
+2026-05-06 23:22:50,547 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:22:50,549 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:50] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:22:57,914 - __main__ - INFO - [JAMIN] BOOK_ROOM: Booked room 2
+2026-05-06 23:22:57,916 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:57] "[32mGET /book/2 HTTP/1.1[0m" 302 -
+2026-05-06 23:22:58,197 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:22:58,199 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:22:58] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:23:15,873 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-06 23:23:15,874 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:23:15] "GET /reports HTTP/1.1" 200 -
+2026-05-06 23:28:38,094 - __main__ - INFO - [JAMIN] WALKIN_START: Started walk-in order #18
+2026-05-06 23:28:38,250 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:28:38] "GET /walkin/order HTTP/1.1" 200 -
+2026-05-06 23:28:54,829 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-06 23:28:54,870 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:28:54] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-06 23:29:10,603 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 3
+2026-05-06 23:29:10,605 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:29:10] "GET /bill/3 HTTP/1.1" 200 -
+2026-05-06 23:29:15,629 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-06 23:29:15,632 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:29:15] "GET /reports HTTP/1.1" 200 -
+2026-05-06 23:30:18,899 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:30:18] "GET / HTTP/1.1" 200 -
+2026-05-06 23:30:28,899 - __main__ - INFO - [micah mugusi] LOGIN: Logged into the POS
+2026-05-06 23:30:28,900 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:30:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 23:30:29,032 - __main__ - INFO - [micah mugusi] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:30:29,034 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:30:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:31:28,734 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-06 23:31:28,736 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 23:31:28,843 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:31:29,519 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:29] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-06 23:31:30,641 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:30] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-06 23:31:30,692 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:30] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-06 23:31:30,861 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:30] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1" 200 -
+2026-05-06 23:31:30,882 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:31:30] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-06 23:34:28,350 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-06 23:34:28,351 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-06 23:34:28,484 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:34:28,721 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:28] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-06 23:34:28,768 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-06 23:34:28,769 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-06 23:34:28,797 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-06 23:34:31,652 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:34:31,727 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:31] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-06 23:34:31,765 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-06 23:34:31,769 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-06 23:34:31,783 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-06 23:34:31,846 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:34:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-06 23:35:04,101 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:35:04,174 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:35:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-06 23:35:04,212 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:35:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-06 23:35:04,214 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:35:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-06 23:35:04,274 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:35:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-06 23:35:04,309 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:35:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-06 23:36:14,804 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:36:14,826 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:36:14] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:40:02,680 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:40:02,723 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:40:02] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:40:34,023 - __main__ - INFO - [JAMIN] RELEASE_ROOM: Released room 2
+2026-05-06 23:40:34,025 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:40:34] "[32mGET /release/2 HTTP/1.1[0m" 302 -
+2026-05-06 23:40:34,131 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-06 23:40:34,135 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:40:34] "GET /dashboard HTTP/1.1" 200 -
+2026-05-06 23:41:56,093 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-06 23:41:56,099 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:41:56] "GET /reports HTTP/1.1" 200 -
+2026-05-06 23:47:42,001 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-06 23:47:42,085 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 23:47:42] "GET /admin HTTP/1.1" 200 -
+2026-05-07 00:07:58,846 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 00:07:58,849 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:07:58] "GET /admin HTTP/1.1" 200 -
+2026-05-07 00:08:08,830 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:08:08,922 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:08:08] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2026-05-07 00:08:09,105 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:08:09] "[36mGET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 00:08:09,110 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:08:09] "[36mGET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 00:08:09,184 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:08:09] "GET /reports?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1" 200 -
+2026-05-07 00:08:09,208 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:08:09] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 00:09:59,668 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:09:59,843 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:09:59] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2026-05-07 00:09:59,876 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:09:59] "[36mGET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 00:09:59,884 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:09:59] "[36mGET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 00:09:59,935 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:09:59] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-07 00:09:59,965 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:09:59] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 00:12:55,192 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:12:55,244 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:12:55] "GET /reports HTTP/1.1" 200 -
+2026-05-07 00:15:55,707 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:15:55,747 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:15:55] "GET /reports HTTP/1.1" 200 -
+2026-05-07 00:18:03,663 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:18:03] "[33mGET /cancel_order/3 HTTP/1.1[0m" 404 -
+2026-05-07 00:20:20,267 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:20:20,271 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:20:20] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:20:44,952 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:20:44,954 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:20:44] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:21:57,031 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 00:21:57,118 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:21:57] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 00:22:13,505 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 00:22:13,514 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:22:13] "GET /admin HTTP/1.1" 200 -
+2026-05-07 00:22:17,247 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:22:17,260 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:22:17] "GET /reports HTTP/1.1" 200 -
+2026-05-07 00:23:05,257 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:23:05,263 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:05] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:23:30,992 - __main__ - INFO - [JAMIN] LOGOUT: Logged out of POS
+2026-05-07 00:23:30,994 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-07 00:23:31,046 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:31] "GET / HTTP/1.1" 200 -
+2026-05-07 00:23:40,451 - __main__ - INFO - [Moses] LOGIN: Logged into the POS
+2026-05-07 00:23:40,457 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 00:23:40,677 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:23:40,680 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:40] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:23:51,718 - __main__ - INFO - [Moses] LOGOUT: Logged out of POS
+2026-05-07 00:23:51,719 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-07 00:23:51,727 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:51] "GET / HTTP/1.1" 200 -
+2026-05-07 00:23:57,301 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 00:23:57,304 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 00:23:57,468 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:23:57,473 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:23:57] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:24:19,319 - __main__ - INFO - [JAMIN] WALKIN_START: Started walk-in order #19
+2026-05-07 00:24:19,343 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:24:19] "GET /walkin/order HTTP/1.1" 200 -
+2026-05-07 00:24:26,286 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:24:26,287 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:24:26] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:24:46,323 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:24:46] "[33mGET /cancel_order/3 HTTP/1.1[0m" 404 -
+2026-05-07 00:32:13,371 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:32:13,392 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:32:13] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:39:00,437 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:39:00,439 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:00] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:39:04,462 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:39:04,530 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:04] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2026-05-07 00:39:04,565 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:04] "[36mGET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 00:39:04,572 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:04] "[36mGET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 00:39:04,627 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:04] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-07 00:39:04,646 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:04] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 00:39:08,679 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:39:08,713 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:08] "[35m[1mGET /reports HTTP/1.1[0m" 500 -
+2026-05-07 00:39:08,747 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:08] "[36mGET /reports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 00:39:08,757 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:08] "[36mGET /reports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 00:39:08,767 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:08] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png&s=VuZ6mqlCUUqon9DCmpDb HTTP/1.1[0m" 304 -
+2026-05-07 00:39:08,812 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:08] "[36mGET /reports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 00:39:59,023 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:39:59,076 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:39:59] "GET /reports HTTP/1.1" 200 -
+2026-05-07 00:40:54,050 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 00:40:54,926 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 00:40:54,934 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 00:49:53,001 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 00:49:53,960 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 00:49:53,967 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 00:50:01,413 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 00:50:01,478 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:01] "GET /reports HTTP/1.1" 200 -
+2026-05-07 00:50:14,080 - __main__ - INFO - [JAMIN] BOOK_ROOM: Booked room 2
+2026-05-07 00:50:14,083 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:14] "[32mGET /book/2 HTTP/1.1[0m" 302 -
+2026-05-07 00:50:14,539 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:50:14,573 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:14] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:50:29,631 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:29] "GET / HTTP/1.1" 200 -
+2026-05-07 00:50:42,157 - __main__ - INFO - [micah mugusi] LOGIN: Logged into the POS
+2026-05-07 00:50:42,158 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 00:50:42,340 - __main__ - INFO - [micah mugusi] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:50:42,345 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:42] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:50:46,438 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:50:46] "GET /order/2 HTTP/1.1" 200 -
+2026-05-07 00:51:05,233 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 00:51:05,964 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 00:51:05,972 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 00:51:11,733 - __main__ - INFO - [micah mugusi] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:51:11,783 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:11] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:51:15,512 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:15] "GET /order/2 HTTP/1.1" 200 -
+2026-05-07 00:51:26,783 - __main__ - INFO - [micah mugusi] VIEW_BILL: Viewed bill for 2
+2026-05-07 00:51:26,790 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:26] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 00:51:29,876 - __main__ - INFO - Receipt GHL-000017 created for amount 2500.00
+2026-05-07 00:51:30,005 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:30] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 00:51:30,145 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:30] "GET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-07 00:51:30,161 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:30] "GET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-07 00:51:30,238 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:30] "GET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=SRbvkamr2kgqt8Zfkweh HTTP/1.1" 200 -
+2026-05-07 00:51:30,260 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:51:30] "GET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-07 00:54:30,483 - __main__ - INFO - [micah mugusi] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:54:30,500 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:54:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:54:47,499 - __main__ - INFO - [micah mugusi] VIEW_BILL: Viewed bill for 2
+2026-05-07 00:54:47,504 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:54:47] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 00:55:12,881 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:12] "GET / HTTP/1.1" 200 -
+2026-05-07 00:55:22,993 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 00:55:22,995 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 00:55:23,134 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:55:23,137 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:23] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:55:29,018 - __main__ - INFO - [JAMIN] RELEASE_ROOM: Released room 2
+2026-05-07 00:55:29,019 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:29] "[32mGET /release/2 HTTP/1.1[0m" 302 -
+2026-05-07 00:55:29,135 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:55:29,138 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:55:39,435 - __main__ - INFO - [JAMIN] RELEASE_ROOM: Released room 3
+2026-05-07 00:55:39,438 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:39] "[32mGET /release/3 HTTP/1.1[0m" 302 -
+2026-05-07 00:55:39,610 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:55:39,612 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:39] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:55:44,252 - __main__ - INFO - [JAMIN] RELEASE_ROOM: Released room nairobi
+2026-05-07 00:55:44,254 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:44] "[32mGET /release/4 HTTP/1.1[0m" 302 -
+2026-05-07 00:55:44,619 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:55:44,623 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:55:44] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 00:56:02,286 - __main__ - INFO - [JAMIN] BOOK_ROOM: Booked room 2
+2026-05-07 00:56:02,288 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:56:02] "[32mGET /book/2 HTTP/1.1[0m" 302 -
+2026-05-07 00:56:02,436 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 00:56:02,439 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 00:56:02] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 01:10:27,306 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 01:10:27,318 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:10:27] "GET /admin HTTP/1.1" 200 -
+2026-05-07 01:10:31,296 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 01:10:31,331 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:10:31] "GET /reports HTTP/1.1" 200 -
+2026-05-07 01:37:49,381 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-07 01:37:49,381 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 01:37:49,385 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 01:37:50,058 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 01:37:50,068 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 01:38:08,421 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 01:38:08,557 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:08] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 01:38:14,788 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 01:38:15,021 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:15] "[35m[1mGET /bill/2 HTTP/1.1[0m" 500 -
+2026-05-07 01:38:15,177 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:15] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 01:38:15,186 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:15] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 01:38:15,304 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:15] "GET /bill/2?__debugger__=yes&cmd=resource&f=console.png&s=fRPOxp0Hh4nH8eunlIWv HTTP/1.1" 200 -
+2026-05-07 01:38:15,340 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:38:15] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 01:48:12,080 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 01:48:12,137 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:12] "[35m[1mGET /bill/2 HTTP/1.1[0m" 500 -
+2026-05-07 01:48:12,173 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:12] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 01:48:12,175 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:12] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 01:48:12,188 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:12] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=console.png&s=fRPOxp0Hh4nH8eunlIWv HTTP/1.1[0m" 304 -
+2026-05-07 01:48:12,235 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:12] "[36mGET /bill/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 01:48:25,657 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 01:48:25,675 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:48:25] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 01:57:27,749 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 01:57:28,170 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 01:57:29,513 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 01:57:29,521 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 01:57:41,476 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 01:57:41,488 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 01:57:41] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:11:57,569 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 02:11:57,637 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 02:11:59,849 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 02:11:59,857 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 02:26:32,620 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:26:32,661 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:26:32] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:26:38,262 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:26:38,263 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:26:38] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:26:39,370 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:26:39,372 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:26:39] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:26:51,788 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:26:51,838 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:26:51] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:26:58,755 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000017
+2026-05-07 02:26:58,818 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:26:58] "GET /receipt/17 HTTP/1.1" 200 -
+2026-05-07 02:27:10,171 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:27:10,173 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:27:10] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:27:35,756 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:27:35,758 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:27:35] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:28:43,892 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:28:43,894 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:28:43] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:28:50,301 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:28:50,302 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:28:50] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:28:58,968 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:28:58,984 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:28:58] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:29:01,393 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000017
+2026-05-07 02:29:01,403 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:01] "GET /receipt/17 HTTP/1.1" 200 -
+2026-05-07 02:29:12,069 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 02:29:12,106 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:12] "GET /admin HTTP/1.1" 200 -
+2026-05-07 02:29:17,352 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:29:17,355 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:17] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:29:20,235 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:29:20,238 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:20] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:29:26,386 - __main__ - INFO - [JAMIN] PRINT_RECEIPT: Reprinted receipt #GHL-000017
+2026-05-07 02:29:26,391 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:26] "GET /receipt/regenerate/17 HTTP/1.1" 200 -
+2026-05-07 02:29:37,812 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 02:29:37,816 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:37] "GET /admin HTTP/1.1" 200 -
+2026-05-07 02:29:49,836 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:29:49,838 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:49] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:29:53,496 - __main__ - INFO - Receipt GHL-000018 created for amount 2500.00
+2026-05-07 02:29:53,568 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:53] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:29:53,715 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:53] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:29:53,735 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:53] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:29:53,802 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:29:53] "GET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1" 200 -
+2026-05-07 02:30:12,721 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:30:12,728 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:30:12] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:30:16,096 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000012
+2026-05-07 02:30:16,101 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:30:16] "GET /receipt/12 HTTP/1.1" 200 -
+2026-05-07 02:30:33,421 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000001
+2026-05-07 02:30:33,423 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:30:33] "GET /receipt/1 HTTP/1.1" 200 -
+2026-05-07 02:30:49,572 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 02:30:49,655 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:30:49] "GET /reports HTTP/1.1" 200 -
+2026-05-07 02:33:10,836 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:33:10,845 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:10] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:33:13,856 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000018
+2026-05-07 02:33:13,872 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:13] "GET /receipt/18 HTTP/1.1" 200 -
+2026-05-07 02:33:27,686 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:33:27,688 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:27] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:33:30,395 - __main__ - INFO - Receipt GHL-000019 created for amount 2500.00
+2026-05-07 02:33:30,418 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:30] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:33:30,453 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:33:30,462 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:33:30,476 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:33:36,921 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:33:36,923 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:33:36] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:36:18,152 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:36:18,158 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:36:18] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:36:23,661 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:36:23,663 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:36:23] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:36:34,269 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 02:36:34,637 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:36:34] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 02:36:39,036 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 02:36:39,038 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:36:39] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 02:36:41,828 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000019
+2026-05-07 02:36:41,843 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:36:41] "GET /receipt/19 HTTP/1.1" 200 -
+2026-05-07 02:37:48,998 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:37:49,001 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:37:49] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:37:56,682 - __main__ - INFO - Receipt GHL-000020 created for amount 2500.00
+2026-05-07 02:37:56,738 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:37:56] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:37:56,769 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:37:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:37:56,805 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:37:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:37:56,850 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:37:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:45:03,972 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:45:03,981 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:45:03] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:45:25,566 - __main__ - INFO - Receipt GHL-000021 created for amount 2500.00
+2026-05-07 02:45:25,590 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:45:25] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:45:25,622 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:45:25] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:45:25,623 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:45:25] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:45:25,643 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:45:25] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:46:33,268 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:46:33,284 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:46:33] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:47:02,872 - __main__ - INFO - Receipt GHL-000022 created for amount 2500.00
+2026-05-07 02:47:02,920 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:47:02] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:47:02,958 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:47:02] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:47:02,961 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:47:02] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:47:02,977 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:47:02] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:52:09,999 - __main__ - INFO - Receipt GHL-000023 created for amount 2500.00
+2026-05-07 02:52:10,026 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:52:10] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:52:10,063 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:52:10] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:52:10,071 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:52:10] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:52:10,088 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:52:10] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:54:27,904 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 02:54:27,906 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:54:27] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 02:54:33,271 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:54:33,273 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:54:33] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:56:51,138 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 02:56:51,141 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:56:51] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 02:56:56,435 - __main__ - INFO - Receipt GHL-000024 created for amount 2500.00
+2026-05-07 02:56:56,481 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:56:56] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:56:56,514 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:56:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:56:56,525 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:56:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:56:56,540 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:56:56] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:57:29,762 - __main__ - INFO - Receipt GHL-000025 created for amount 2500.00
+2026-05-07 02:57:29,800 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:57:29] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 02:57:29,836 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:57:29] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 02:57:29,840 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:57:29] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 02:57:29,855 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:57:29] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 02:57:29,898 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 02:57:29] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 03:01:54,505 - __main__ - INFO - Receipt GHL-000026 created for amount 2500.00
+2026-05-07 03:01:54,539 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:01:54] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 03:01:54,579 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:01:54] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 03:01:54,589 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:01:54] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 03:01:54,602 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:01:54] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 03:01:54,631 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:01:54] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 03:02:03,439 - __main__ - INFO - Receipt GHL-000027 created for amount 2500.00
+2026-05-07 03:02:03,480 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:02:03] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 03:02:03,519 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:02:03] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 03:02:03,525 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:02:03] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 03:02:03,535 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:02:03] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 03:02:03,571 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:02:03] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 03:03:30,000 - __main__ - INFO - Receipt GHL-000028 created for amount 2500.00
+2026-05-07 03:03:30,021 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:30] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 03:03:30,051 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 03:03:30,059 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 03:03:30,101 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 03:03:30,122 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:30] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 03:03:35,984 - __main__ - INFO - Receipt GHL-000029 created for amount 2500.00
+2026-05-07 03:03:36,007 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:36] "[35m[1mPOST /pay/2 HTTP/1.1[0m" 500 -
+2026-05-07 03:03:36,041 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:36] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-05-07 03:03:36,044 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:36] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-05-07 03:03:36,056 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:36] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png&s=NHxOVIhFguITOdDLFURB HTTP/1.1[0m" 304 -
+2026-05-07 03:03:36,087 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:03:36] "[36mGET /pay/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-05-07 03:18:36,586 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:18:36,684 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:18:37,567 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:18:37,576 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:24:19,230 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:24:19,294 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:24:19,977 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:24:19,985 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:24:58,066 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:24:58,145 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:24:58,937 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:24:58,948 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:26:57,241 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:26:57,304 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:26:58,001 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:26:58,008 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:27:06,915 - __main__ - INFO - [JAMIN] VIEW_BILL: Viewed bill for 2
+2026-05-07 03:27:06,928 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:27:06] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 03:27:09,842 - __main__ - INFO - Receipt GHL-000030 created for amount 2500.00
+2026-05-07 03:27:10,170 - __main__ - INFO - [JAMIN] PAYMENT: Payment completed via Cash
+2026-05-07 03:27:10,172 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:27:10] "POST /pay/2 HTTP/1.1" 200 -
+2026-05-07 03:27:20,375 - __main__ - INFO - [JAMIN] PRINT_RECEIPT: Reprinted receipt #GHL-000030
+2026-05-07 03:27:20,399 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:27:20] "GET /receipt/regenerate/30 HTTP/1.1" 200 -
+2026-05-07 03:29:57,191 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:29:57,257 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:29:57,948 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:29:57,956 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:30:06,373 - __main__ - INFO - [JAMIN] PRINT_RECEIPT: Reprinted receipt #GHL-000030
+2026-05-07 03:30:06,385 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:30:06] "GET /receipt/regenerate/30 HTTP/1.1" 200 -
+2026-05-07 03:30:08,890 - __main__ - INFO - [JAMIN] PRINT_RECEIPT: Reprinted receipt #GHL-000030
+2026-05-07 03:30:08,892 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:30:08] "GET /receipt/regenerate/30 HTTP/1.1" 200 -
+2026-05-07 03:30:17,123 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:30:17,188 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:30:57,420 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:30:58,112 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:30:58,119 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:31:00,983 - __main__ - INFO - [JAMIN] PRINT_RECEIPT: Reprinted receipt #GHL-000030
+2026-05-07 03:31:01,012 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:31:01] "GET /receipt/regenerate/30 HTTP/1.1" 200 -
+2026-05-07 03:33:29,639 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 03:33:29,656 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:33:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 03:33:34,731 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 03:33:34,744 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:33:34] "GET /admin HTTP/1.1" 200 -
+2026-05-07 03:33:39,140 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 03:33:39,172 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:33:39] "GET /reports HTTP/1.1" 200 -
+2026-05-07 03:34:01,941 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 03:34:01,950 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:34:01] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 03:34:06,150 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:34:06,157 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:34:06] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:35:35,861 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:35:35,882 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:35:35] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:35:38,603 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:35:38,607 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:35:38] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:35:49,403 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 03:35:49,407 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:35:49] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 03:35:59,862 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 03:35:59,864 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:35:59] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 03:36:02,279 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:36:02,281 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:36:02] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:38:38,118 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:38:38,119 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:38:38] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:39:56,105 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:39:56,108 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:39:56] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:39:59,164 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:39:59,167 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:39:59] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:40:28,744 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:40:28,748 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:40:28] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:40:56,479 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:40:56,567 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:40:57,473 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:40:57,483 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:41:09,518 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:41:09,577 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:41:10,377 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:41:10,386 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:41:14,593 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:41:14,621 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:41:14] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:41:35,523 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:41:35,587 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:41:36,292 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:41:36,301 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:41:50,016 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:41:50,045 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:41:50] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:42:00,277 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 03:42:00,343 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:42:23,669 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:42:52,815 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 03:42:53,486 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 03:42:53,493 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 03:42:56,444 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:42:56,459 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:42:56] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:43:14,906 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:43:14,910 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:43:14] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:43:18,432 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:43:18,435 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:43:18] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:43:40,135 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:43:40,138 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:43:40] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:44:32,561 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:44:32,563 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:44:32] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:44:40,662 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:44:40,664 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:44:40] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:45:53,699 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:45:53,719 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:45:53] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:47:19,255 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:47:19,263 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:47:19] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 03:48:03,905 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 03:48:03,906 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 03:48:03] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:01:20,121 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:01:20,124 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:01:20] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:01:24,510 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:01:24,512 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:01:24] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:04:54,516 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:04:54,524 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:04:54] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:04:56,625 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:04:56,627 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:04:56] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:15:08,428 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:15:08,434 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:15:08] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:17:59,889 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:17:59,906 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:17:59] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:18:07,624 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:18:07,626 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:18:07] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:18:37,010 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:18:37,025 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:18:37] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:19:01,138 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:19:01,150 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:19:01] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:25:36,063 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000030
+2026-05-07 04:25:36,084 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:25:36] "GET /receipt/30 HTTP/1.1" 200 -
+2026-05-07 04:26:52,354 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000025
+2026-05-07 04:26:52,355 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:26:52] "GET /receipt/25 HTTP/1.1" 200 -
+2026-05-07 04:26:59,689 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000025
+2026-05-07 04:26:59,691 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:26:59] "GET /receipt/25 HTTP/1.1" 200 -
+2026-05-07 04:27:11,189 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000001
+2026-05-07 04:27:11,190 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:27:11] "GET /receipt/1 HTTP/1.1" 200 -
+2026-05-07 04:29:25,737 - __main__ - INFO - [JAMIN] VIEW_RECEIPT: Viewed receipt #GHL-000001
+2026-05-07 04:29:25,754 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:29:25] "GET /receipt/1 HTTP/1.1" 200 -
+2026-05-07 04:30:19,909 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:30:19,964 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:30:19] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:34:48,516 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:34:48] "GET / HTTP/1.1" 200 -
+2026-05-07 04:34:56,610 - __main__ - INFO - [Moses] LOGIN: Logged into the POS
+2026-05-07 04:34:56,702 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:34:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 04:34:56,875 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:34:56,895 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:34:56] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:35:43,897 - __main__ - INFO - [Moses] BOOK_ROOM: Booked room 2
+2026-05-07 04:35:43,901 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:35:43] "[32mGET /book/2 HTTP/1.1[0m" 302 -
+2026-05-07 04:35:44,046 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:35:44,048 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:35:44] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:35:51,591 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:35:51] "GET /order/2 HTTP/1.1" 200 -
+2026-05-07 04:36:07,474 - __main__ - INFO - [Moses] ADD_DRINK: Added 1x MANAGU SPECIAL to 2
+2026-05-07 04:36:07,478 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:36:07] "POST /order/2 HTTP/1.1" 200 -
+2026-05-07 04:36:22,592 - __main__ - INFO - [Moses] ADD_DRINK: Added 2x Chips+Kuku to 2
+2026-05-07 04:36:22,597 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:36:22] "POST /order/2 HTTP/1.1" 200 -
+2026-05-07 04:36:26,742 - __main__ - INFO - [Moses] VIEW_BILL: Viewed bill for 2
+2026-05-07 04:36:26,753 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:36:26] "GET /bill/2 HTTP/1.1" 200 -
+2026-05-07 04:36:40,343 - __main__ - INFO - Receipt GHL-000031 created for amount 9500.00
+2026-05-07 04:36:40,710 - __main__ - INFO - [Moses] PAYMENT: Payment completed via Cash
+2026-05-07 04:36:40,718 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:36:40] "POST /pay/2 HTTP/1.1" 200 -
+2026-05-07 04:36:51,394 - __main__ - INFO - [Moses] VIEW_RECEIPT: Viewed receipt #GHL-000031
+2026-05-07 04:36:51,395 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:36:51] "GET /receipt/31 HTTP/1.1" 200 -
+2026-05-07 04:37:30,239 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:37:30,240 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:37:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:37:37,293 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:37:37] "GET /walkin/order HTTP/1.1" 200 -
+2026-05-07 04:37:55,138 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:37:55] "GET /order/2 HTTP/1.1" 200 -
+2026-05-07 04:38:21,719 - __main__ - INFO - [Moses] LOGOUT: Logged out of POS
+2026-05-07 04:38:21,721 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:38:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-07 04:38:21,733 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:38:21] "GET / HTTP/1.1" 200 -
+2026-05-07 04:38:30,419 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 04:38:30,421 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:38:30] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 04:38:30,736 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:38:30,737 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:38:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:38:38,287 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:38:38,293 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:38:38] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:43:09,762 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 04:43:09,866 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 04:44:16,639 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-07 04:44:16,639 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 04:44:16,644 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 04:44:17,316 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 04:44:17,324 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 04:44:32,843 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:44:32,880 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:44:32] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:48:24,296 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:48:24,317 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:48:24] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:48:33,788 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 04:48:33,797 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:48:33] "GET /admin HTTP/1.1" 200 -
+2026-05-07 04:48:37,205 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 04:48:37,208 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:48:37] "GET /admin HTTP/1.1" 200 -
+2026-05-07 04:48:40,439 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:48:40,460 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:48:40] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:56:42,674 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:56:42,696 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:56:42] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:56:48,282 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:56:48,330 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:56:48] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:56:53,791 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 04:56:53,800 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:56:53] "GET /admin HTTP/1.1" 200 -
+2026-05-07 04:56:59,684 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 04:56:59,692 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:56:59] "GET /reports HTTP/1.1" 200 -
+2026-05-07 04:58:00,855 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 04:58:00,857 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:58:00] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 04:59:18,119 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 04:59:18,123 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 04:59:18] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:00:50,220 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:00:50] "[32mPOST /admin/reset-revenue HTTP/1.1[0m" 302 -
+2026-05-07 05:00:50,693 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:00:50,716 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:00:50] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:00:54,160 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:00:54,163 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:00:54] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:01:15,485 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:01:15,487 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:01:15] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:01:20,611 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:01:20,617 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:01:20] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:02:02,478 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:02:02] "[32mPOST /admin/reset-activities HTTP/1.1[0m" 302 -
+2026-05-07 05:02:02,715 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:02:02,718 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:02:02] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:02:06,381 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:02:06,384 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:02:06] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:02:16,465 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:02:16,467 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:02:16] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:09:17,177 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:09:17,193 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:09:17] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:09:40,651 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:09:40] "[32mPOST /admin/reset-activities HTTP/1.1[0m" 302 -
+2026-05-07 05:09:41,213 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:09:41,216 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:09:41] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:09:51,438 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:09:51,440 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:09:51] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:17:07,237 - werkzeug - INFO -  * Detected change in 'C:\\Users\\imbai\\golden_hearts_pos\\app.py', reloading
+2026-05-07 05:17:07,349 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 05:35:52,574 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-07 05:35:52,574 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 05:35:52,579 - werkzeug - INFO -  * Restarting with stat
+2026-05-07 05:35:53,280 - werkzeug - WARNING -  * Debugger is active!
+2026-05-07 05:35:53,288 - werkzeug - INFO -  * Debugger PIN: 111-295-440
+2026-05-07 05:36:18,742 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:36:18,805 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:36:18] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:37:10,561 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:37:10,572 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:37:10] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:37:28,305 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:37:28] "[32mPOST /admin/reset-revenue HTTP/1.1[0m" 302 -
+2026-05-07 05:37:28,613 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 05:37:28,616 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:37:28] "GET /reports HTTP/1.1" 200 -
+2026-05-07 05:37:31,663 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 05:37:31,666 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 05:37:31] "GET /admin HTTP/1.1" 200 -
+2026-05-07 05:58:40,200 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.41.52.34:5000
+2026-05-07 05:58:40,201 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 06:02:14,251 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:14] "GET / HTTP/1.1" 200 -
+2026-05-07 06:02:14,912 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 06:02:22,753 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 06:02:22,756 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 06:02:22,948 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:02:23,000 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:23] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:02:33,115 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 06:02:33,138 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:33] "GET /admin HTTP/1.1" 200 -
+2026-05-07 06:02:36,345 - __main__ - INFO - [JAMIN] DELETE_DRINK: Deleted item #1
+2026-05-07 06:02:36,347 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:36] "[32mGET /delete_drink/1 HTTP/1.1[0m" 302 -
+2026-05-07 06:02:36,591 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 06:02:36,593 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:02:36] "GET /admin HTTP/1.1" 200 -
+2026-05-07 06:03:07,717 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 06:03:07,734 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:03:07] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 06:03:13,567 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 06:03:13,632 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:03:13] "GET /reports HTTP/1.1" 200 -
+2026-05-07 06:04:08,112 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:04:08,115 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:08] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:04:09,006 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:09] "GET / HTTP/1.1" 200 -
+2026-05-07 06:04:18,796 - __main__ - INFO - [Moses] LOGIN: Logged into the POS
+2026-05-07 06:04:18,799 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 06:04:19,050 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:04:19,053 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:19] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:04:29,421 - __main__ - INFO - [Moses] BOOK_ROOM: Booked room 2
+2026-05-07 06:04:29,423 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:29] "[32mGET /book/2 HTTP/1.1[0m" 302 -
+2026-05-07 06:04:29,596 - __main__ - INFO - [Moses] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:04:29,599 - werkzeug - INFO - 10.41.52.51 - - [07/May/2026 06:04:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:04:36,155 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:04:36,157 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 06:04:36] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:04:48,189 - __main__ - INFO - [JAMIN] RELEASE_ROOM: Released room 2
+2026-05-07 06:04:48,191 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 06:04:48] "[32mGET /release/2 HTTP/1.1[0m" 302 -
+2026-05-07 06:04:48,580 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 06:04:48,583 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 06:04:48] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 06:34:40,766 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.41.52.34:5000
+2026-05-07 06:34:40,767 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 07:35:52,372 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 07:35:52] "GET / HTTP/1.1" 200 -
+2026-05-07 07:36:37,879 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 07:36:37] "GET / HTTP/1.1" 200 -
+2026-05-07 07:36:38,798 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 07:36:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 07:36:52,451 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 07:36:52,456 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 07:36:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 07:36:53,151 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 07:36:53,337 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 07:36:53] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:00:10,109 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:00:10] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-07 08:00:10,930 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:00:10] "GET / HTTP/1.1" 200 -
+2026-05-07 08:00:12,287 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:00:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:00:15,766 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:00:15] "GET / HTTP/1.1" 200 -
+2026-05-07 08:00:47,619 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:00:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:01:42,979 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:01:42] "GET / HTTP/1.1" 200 -
+2026-05-07 08:01:44,296 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:01:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:01:48,849 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:01:48] "GET / HTTP/1.1" 200 -
+2026-05-07 08:01:49,838 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:01:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:02:08,208 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 08:02:08,211 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 08:02:09,000 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 08:02:09,003 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:09] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:02:31,617 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:31] "GET / HTTP/1.1" 200 -
+2026-05-07 08:02:32,558 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:02:38,223 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 08:02:38,226 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 08:02:39,006 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 08:02:39,008 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:39] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:02:55,776 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 08:02:55,974 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:02:55] "GET /admin HTTP/1.1" 200 -
+2026-05-07 08:03:01,135 - __main__ - INFO - [JAMIN] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-07 08:03:01,317 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:01] "GET /receipts HTTP/1.1" 200 -
+2026-05-07 08:03:03,246 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:03] "[32mGET /receipts HTTP/1.1[0m" 302 -
+2026-05-07 08:03:03,831 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:03] "GET / HTTP/1.1" 200 -
+2026-05-07 08:03:04,835 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:04] "GET / HTTP/1.1" 200 -
+2026-05-07 08:03:04,867 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:04] "GET / HTTP/1.1" 200 -
+2026-05-07 08:03:19,697 - __main__ - INFO - [JAMIN] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-07 08:03:19,768 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:19] "GET /reports HTTP/1.1" 200 -
+2026-05-07 08:03:21,786 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:21] "[32mGET /reports HTTP/1.1[0m" 302 -
+2026-05-07 08:03:22,365 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:03:22] "GET / HTTP/1.1" 200 -
+2026-05-07 08:05:19,493 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:05:19] "GET / HTTP/1.1" 200 -
+2026-05-07 08:05:20,182 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:05:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:05:31,276 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 08:05:31,281 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:05:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 08:05:31,925 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 08:05:31,927 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:05:31] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:21:22,698 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:22] "GET / HTTP/1.1" 200 -
+2026-05-07 08:21:23,977 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:21:29,162 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 08:21:29,165 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 08:21:29,850 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 08:21:29,852 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:21:41,727 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 08:21:41,729 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:41] "GET /admin HTTP/1.1" 200 -
+2026-05-07 08:21:50,552 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:50] "GET /edit_drink/2 HTTP/1.1" 200 -
+2026-05-07 08:21:52,429 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:52] "[32mGET /edit_drink/2 HTTP/1.1[0m" 302 -
+2026-05-07 08:21:53,027 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:53] "GET / HTTP/1.1" 200 -
+2026-05-07 08:21:54,070 - __main__ - INFO - [JAMIN] EDIT_DRINK: Updated item #2: Whisky
+2026-05-07 08:21:54,073 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:54] "[32mPOST /edit_drink/2 HTTP/1.1[0m" 302 -
+2026-05-07 08:21:54,845 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 08:21:54,848 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:21:54] "GET /admin HTTP/1.1" 200 -
+2026-05-07 08:40:02,173 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:02] "GET / HTTP/1.1" 200 -
+2026-05-07 08:40:03,857 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:03] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-05-07 08:40:05,429 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 08:40:25,867 - __main__ - INFO - [JAMIN] LOGIN: Logged into the POS
+2026-05-07 08:40:25,868 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:25] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-07 08:40:26,775 - __main__ - INFO - [JAMIN] VIEW_DASHBOARD: Viewed dashboard
+2026-05-07 08:40:26,777 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:26] "GET /dashboard HTTP/1.1" 200 -
+2026-05-07 08:40:30,984 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:40:30] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-05-07 08:43:49,115 - __main__ - INFO - [JAMIN] VIEW_ADMIN: Accessed admin panel
+2026-05-07 08:43:49,118 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:43:49] "GET /admin HTTP/1.1" 200 -
+2026-05-07 08:43:51,741 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:43:51] "[33mGET /logo.png HTTP/1.1[0m" 404 -
+2026-05-07 08:45:11,166 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:45:11] "GET /edit_drink/2 HTTP/1.1" 200 -
+2026-05-07 08:45:15,385 - werkzeug - INFO - 127.0.0.1 - - [07/May/2026 08:45:15] "GET / HTTP/1.1" 200 -
+2026-05-08 12:57:03,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.225.34:5000
+2026-05-08 12:57:03,129 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 12:57:10,350 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 12:57:10] "GET / HTTP/1.1" 200 -
+2026-05-08 12:57:10,482 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 12:57:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-08 12:57:20,224 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\imbai\golden_hearts_pos\app.py", line 242, in login
+    cur.execute("SELECT * FROM users WHERE pin=?", (pin,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: users
+2026-05-08 12:57:20,347 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 12:57:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2026-05-08 13:31:30,937 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.225.34:5000
+2026-05-08 13:31:30,938 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 13:31:41,932 - __main__ - INFO - [Admin] LOGIN: Logged into the POS
+2026-05-08 13:31:41,950 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:31:41] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-05-08 13:31:42,042 - app - ERROR - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\imbai\golden_hearts_pos\app.py", line 52, in decorated_function
+    return f(*args, **kwargs)
+  File "C:\Users\imbai\golden_hearts_pos\app.py", line 275, in dashboard
+    cur.execute("""
+    ~~~~~~~~~~~^^^^
+        SELECT COALESCE(SUM(amount), 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        FROM receipts
+        ^^^^^^^^^^^^^
+        WHERE DATE(created_at) = DATE('now')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+sqlite3.OperationalError: no such table: receipts
+2026-05-08 13:31:42,070 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:31:42] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-08 13:31:58,748 - app - ERROR - Exception on /dashboard [GET]
+Traceback (most recent call last):
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\imbai\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\imbai\golden_hearts_pos\app.py", line 52, in decorated_function
+    return f(*args, **kwargs)
+  File "C:\Users\imbai\golden_hearts_pos\app.py", line 275, in dashboard
+    cur.execute("""
+    ~~~~~~~~~~~^^^^
+        SELECT COALESCE(SUM(amount), 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        FROM receipts
+        ^^^^^^^^^^^^^
+        WHERE DATE(created_at) = DATE('now')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+sqlite3.OperationalError: no such table: receipts
+2026-05-08 13:31:58,759 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:31:58] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2026-05-08 13:53:17,305 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.225.34:5000
+2026-05-08 13:53:17,306 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-08 13:53:31,163 - __main__ - INFO - [Admin] VIEW_DASHBOARD: Viewed dashboard
+2026-05-08 13:53:31,563 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:53:31] "GET /dashboard HTTP/1.1" 200 -
+2026-05-08 13:53:50,131 - __main__ - INFO - [Admin] VIEW_ADMIN: Accessed admin panel
+2026-05-08 13:53:50,337 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:53:50] "GET /admin HTTP/1.1" 200 -
+2026-05-08 13:54:01,707 - __main__ - INFO - [Admin] VIEW_REPORTS: Accessed full reports dashboard
+2026-05-08 13:54:01,807 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 13:54:01] "GET /reports HTTP/1.1" 200 -
+2026-05-08 16:54:19,612 - __main__ - INFO - [Admin] VIEW_RECEIPTS_LIST: Viewed all receipts list
+2026-05-08 16:54:19,814 - werkzeug - INFO - 127.0.0.1 - - [08/May/2026 16:54:19] "GET /receipts HTTP/1.1" 200 -

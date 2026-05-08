@@ -1,0 +1,24 @@
+<h2>Walk-in Order</h2>
+
+<form method="POST">
+    Drink:
+    <select name="drink">
+        {% for d in drinks %}
+        <option value="{{ d[0] }}">{{ d[1] }} - Ksh {{ d[2] }}</option>
+        {% endfor %}
+    </select>
+
+    Qty:
+    <input name="qty" type="number" value="1">
+
+    <button>Add</button>
+</form>
+
+<h3>Items</h3>
+<ul>
+{% for i in items %}
+<li>{{ i[0] }} x{{ i[1] }} = Ksh {{ i[1]*i[2] }}</li>
+{% endfor %}
+</ul>
+
+<a href="/bill_walkin/{{ order_id }}">Proceed to Bill</a>
